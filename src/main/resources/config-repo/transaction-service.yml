@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+spring:
+  mongodb:
+    uri: mongodb://localhost:27017/transactions
+
+services:
+  account-service:
+    url: http://localhost:8082
+  credit-service:
+    url: http://localhost:8083

@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+spring:
+  mongodb:
+    uri: mongodb://localhost:27017/credits
+
+services:
+  customer-service:
+    url: http://localhost:8081
